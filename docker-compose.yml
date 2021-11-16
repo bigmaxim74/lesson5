@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  db:
+    image: bigmaxim74/githubyes
+    container_name: catea
+    restart: unless-stopped
